@@ -24,7 +24,7 @@ See the [Accompanying blog post](http://www.mattyl.co.uk/2012/12/11/woocommerce-
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
-= 0.5=
+= 0.5 =
 * Improved support for sites running [wpml](http://wpml.org/)
 = 0.4 =
 * Remove hidden products from search results 
