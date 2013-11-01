@@ -5,7 +5,7 @@
   Plugin URI: http://www.mattyl.co.uk/2012/12/11/woocommerce-plugin-to-search-products-by-sku/
   Description: The search functionality in woocommerce doesn't search by sku by default. This simple plugin adds this functionality to both the admin site and regular search
   Author: Matthew Lawson
-  Version: 0.4
+  Version: 0.5
   Author URI: http://www.mattyl.co.uk/
  */
 
