@@ -35,6 +35,8 @@ Minor release functionally - Major release development wise :)
 
 This is probably the most significant release of the plugin so far as it addresses most of the issues previously raised, so please keep all bug reports / enhancement suggestions coming :) 
 
+If you feel you / your clients have benefited from the plugin, [please consider a donation :)](http://www.mattyl.co.uk/donate/)
+
 = 0.5.2 =
 Bug fix release! 
 0.5.1 removed the plugin when searching in the Wordpress admin as Woocommerce has implemented searching for simple products by SKU.
