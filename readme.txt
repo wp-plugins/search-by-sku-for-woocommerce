@@ -21,11 +21,21 @@ See the [Accompanying blog post](http://www.mattyl.co.uk/2012/12/11/woocommerce-
 == Installation ==
 
 1. Upload `woocommerce-searchbysku.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. No configuration required :)
 
 == Changelog ==
+= 0.5.2 =
+Bug fix release! 
+0.5.1 removed the plugin when searching in the Wordpress admin as Woocommerce has implemented searching for simple products by SKU.
+I didn't realise they had not added searching for variable products by SKU. This release re-enables that feature, other new features:
+
+* Fix long standing bug of the product filtering not playing nicely with the plugin. (Searching within categories etc)
+* Handle multiple comma separated skus in search (Admin only)
+* Admin search re-implemented to be much closer to Woocommerce search and make more appropriate use of Wordpress filters. (This will make it easier to *hopefully* integrate back into woocommerce core)
+* General code tidy up.
 = 0.5.1 =
-* Disabling SKU search in admin to let woocommerce handle it.
+* Disabling SKU search in admin to let Woocommerce handle it.
 = 0.5 =
 * Improved support for sites running [wpml](http://wpml.org/)
 = 0.4 =
@@ -33,3 +43,9 @@ See the [Accompanying blog post](http://www.mattyl.co.uk/2012/12/11/woocommerce-
 * "Total Found" search count works in more themes.
 = 0.3 =
 * Releasing to wordpress.org
+
+== Frequently Asked Questions ==
+
+= How do I configure the plugin? =
+
+Simply activate in the plugin menu, there is no configuration required :)
