@@ -25,6 +25,16 @@ See the [Accompanying blog post](http://www.mattyl.co.uk/2012/12/11/woocommerce-
 3. No configuration required :)
 
 == Changelog ==
+= 0.6.0 =
+Minor release functionally - Major release development wise :)
+
+* Compatibility with Woocommerce layered nav widget!
+* Fix issue with search results appearing in strange places.
+* Compatibility with Woocommerce Price filter widget!
+* Fix issue with incorrect result count.
+
+This is probably the most significant release of the plugin so far as it addresses most of the issues previously raised, so please keep all bug reports / enhancement suggestions coming :) 
+
 = 0.5.2 =
 Bug fix release! 
 0.5.1 removed the plugin when searching in the Wordpress admin as Woocommerce has implemented searching for simple products by SKU.
