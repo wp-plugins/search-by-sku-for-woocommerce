@@ -4,7 +4,7 @@ Donate link: http://www.mattyl.co.uk/donate/
 Tags: search, sku, stock keeping unit, woocommerce, ecommerce, e-commerce, commerce, woothemes, wordpress ecommerce
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 0.6.0
+Stable tag: 0.6.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
