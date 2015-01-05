@@ -30,6 +30,7 @@ See the [Accompanying blog post](http://www.mattyl.co.uk/2012/12/11/woocommerce-
 
 * Compatibility with Relevanssi search.
 * If you use [Relevanssi](https://wordpress.org/plugins/relevanssi/) and the Search by SKU plugin you may find some of the Woocommerce widgets such as the layered nav do not work 100% correctly.
+* Tweak to provide compatibility for older versions of woocommerce. wc_clean() function does not exist in older versions of woocommerce.
 
 If you feel you / your clients have benefited from the plugin, [please consider a donation :)](http://www.mattyl.co.uk/donate/)
 = 0.6.0 =

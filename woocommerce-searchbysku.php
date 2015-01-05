@@ -19,9 +19,8 @@ function searchbysku_init() {
     include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
     //0.6.0 was incompatible with relenvassi plugin and gave impression of "doing nothing"
     
-    if ( is_plugin_active( 'relevanssi/relevanssi.php' )) {
+    if ( is_plugin_active( 'relevanssi/relevanssi.php' ) || !function_exists('wc_clean')) {
       // Plugin is activated
-      // What a hodge podge..
       // Use the old style of sku searching ...
         include_once 'wc-searchbysku-relevanssi-compat.php';
     } 
