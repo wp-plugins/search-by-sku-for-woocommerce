@@ -3,7 +3,7 @@ Contributors: mattsgarage
 Donate link: http://www.mattyl.co.uk/donate/
 Tags: search, sku, stock keeping unit, woocommerce, ecommerce, e-commerce, commerce, woothemes, wordpress ecommerce
 Requires at least: 3.0.1
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 0.6.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -14,7 +14,7 @@ Extend the search functionality of woocommerce to include searching of sku
 
 The search functionality in woocommerce doesn't search by sku by default.  
 This simple plugin adds this functionality search facility of your site. Just install and activate - no config required.
-Tested with Woocommerce 1.5.6, 2.0.7, 2.0.18 and 2.2.4
+Tested with Woocommerce 1.5.6, 2.0.7, 2.0.18, 2.2.4 and 2.2.10
 See the [Accompanying blog post](http://www.mattyl.co.uk/2012/12/11/woocommerce-plugin-to-search-products-by-sku/ "accompanying blog post") for more info.
 
 
@@ -25,6 +25,13 @@ See the [Accompanying blog post](http://www.mattyl.co.uk/2012/12/11/woocommerce-
 3. No configuration required :)
 
 == Changelog ==
+= 0.6.1 =
+0.6.0 had issues working with Relevanssi search plugin, this update provides compatibility once again.
+
+* Compatibility with Relevanssi search.
+* If you use [Relevanssi](https://wordpress.org/plugins/relevanssi/) and the Search by SKU plugin you may find some of the Woocommerce widgets such as the layered nav do not work 100% correctly.
+
+If you feel you / your clients have benefited from the plugin, [please consider a donation :)](http://www.mattyl.co.uk/donate/)
 = 0.6.0 =
 Minor release functionally - Major release development wise :)
 
